@@ -1,31 +1,29 @@
-#include <bits/stdc++.h>
-#include<string>
+//#include <bits/stdc++.h>
+//#include<string>
+#include <iostream>
 using namespace std;
 
 
 int main(){   
-    int A , B;
-    string operator;
+    int A,B;
+    string op;
 
     cin >> A >> B;
-    cin >> operator;
+    cin >> op;
 
-    if (operator == "+"){
-        cout << A + B << endl;
-    }else if(operator == "-"){
-        cout << A - B << endl;
-    }else if(operator == "*"){
+    if(op == "+"){
+        cout << A+B << endl;
+    }else if(op == "-"){
+        cout << A-B << endl;
+    }else if(op == "*"){
         cout << A*B << endl;
-    }else if(operator == "/"){
+    }else if(op == "/"){
         cout << A/B << endl;
     }else{
         cout << "error" << endl;
     }
 
-
-
-
     //std::cout << "Hello World!" << std::endl;
-    //return 0;
+    return 0;
     
 }
